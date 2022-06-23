@@ -2,11 +2,16 @@
     --letter-spacing: 0.1rem;
     --fs: 1rem;
     --p-fs: 1.1rem;
+
+    --head-pad: 2% 2% 2% 2%;
+
+    --card-size: 300px;
 }
 
 html {
     /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
     font-size: var(--fs);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: var(--letter-spacing);
   }
 
@@ -14,10 +19,15 @@ body {
     margin: 0%;
   }
 
-.flex-container {
+.head {
+  padding: var(--head-pad);
+  text-align: center;
+}
+
+.flexContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0%;
     margin: 0%;
     
@@ -25,8 +35,7 @@ body {
 
 .page {
     padding: 5px;
-    width: 500px;
-    /* height: 200px; */
+    width: var(--card-size);
     margin-top: 10px;
 }
 
