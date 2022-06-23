@@ -1,0 +1,34 @@
+:root {
+    --letter-spacing: 0.1rem;
+    --fs: 1rem;
+    --p-fs: 1.1rem;
+}
+
+html {
+    /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
+    font-size: var(--fs);
+    letter-spacing: var(--letter-spacing);
+  }
+
+body {
+    margin: 0%;
+  }
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.page {
+    padding: 5px;
+    width: 500px;
+    /* height: 200px; */
+    margin-top: 10px;
+}
+
+
+
