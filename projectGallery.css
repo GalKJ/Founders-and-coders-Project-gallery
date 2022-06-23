@@ -33,6 +33,14 @@ body {
     
 }
 
+.cardHead {
+  color: red;
+}
+
+.cardDesc {
+  color: red;
+}
+
 .page {
     padding: 5px;
     width: var(--card-size);
