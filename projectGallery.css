@@ -34,11 +34,17 @@ body {
 }
 
 .cardHead {
-  color: red;
+  text-align: center;
+}
+
+.pageImg {
+  padding: 5px;
+  width: var(--card-size);
+  margin-top: 10px;
 }
 
 .cardDesc {
-  color: red;
+  text-align: center;
 }
 
 .page {
