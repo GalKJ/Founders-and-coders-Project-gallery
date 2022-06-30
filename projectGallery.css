@@ -84,10 +84,18 @@ button {
   transition: all 1s ease;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: hsl(81, 92%, 57%);
   }
+  .flexContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 0%;
+    margin: 0%;
 }
 
 
