@@ -43,8 +43,8 @@ body {
       display: flex;
       flex-flow: column;
       /* gap: 10px; */
-      flex: 1 1 200px;
-      max-width: 250px;
+      flex: 1 1 300px;
+      max-width: 350px;
       padding: 5px; 
       margin: 10px;
       border-radius: 15px;
@@ -97,7 +97,4 @@ button {
     padding: 0%;
     margin: 0%;
 }
-
-
-
-
+}
