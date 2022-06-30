@@ -5,10 +5,10 @@ const cards = document.querySelectorAll('.card');
     let button = card.querySelector('button');
 
     button.addEventListener('click', () => {
-      if (paragraph.style.visibility === "hidden") {
-    paragraph.style.visibility = "visible";
-  } else {
+      if (paragraph.style.visibility === "visible") {
     paragraph.style.visibility = "hidden";
+  } else {
+    paragraph.style.visibility = "visible";
   }
     })
   });
