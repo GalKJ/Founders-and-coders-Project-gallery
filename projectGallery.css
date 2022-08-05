@@ -1,15 +1,16 @@
-:root {
+:root { 
+/* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
     --letter-spacing: 0.1rem;
-    /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
+   
     --fs: 1rem;
-    --p-fs: 1.1rem;
 
     --head-pad: 2% 2% 2% 2%;
 
     --card-size: 200px;
 
+/* The below gradient has colour stops to soften top/bottom. */
     --card-grad: #ffffff 0%, #ff5f1f80 10%, #00cccc80 70%, #ffffff 100%;
-  /* The above gradient has colour stops to soften top/bottom. */
+  
 } 
 
 html {
@@ -83,7 +84,7 @@ button {
   color: white;
   cursor: pointer;
   transform: scale(1.03);
-  transition: all 1s ease;
+  /* transition: all 1s ease; */
 }
 
 .butts:hover {

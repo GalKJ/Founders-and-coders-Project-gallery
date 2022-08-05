@@ -1,5 +1,7 @@
+// Select elements 
 const cards = document.querySelectorAll('.card');
 
+// Add event listeners to show/hide description text
   cards.forEach(card => {
     let paragraph = card.querySelector('p');
     let button = card.querySelector('button');
