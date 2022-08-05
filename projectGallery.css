@@ -68,6 +68,8 @@ body {
   visibility: hidden;
   text-align: center;
   flex: 1;
+  max-height: 80px;
+  overflow-y: scroll;
 }
 
 button {
